@@ -1,0 +1,26 @@
+#########################
+#     SpeedHopper       #
+#   By matahombress     #
+#########################
+#
+####       SUGGESTION:
+####   IF YOU OPEN FILE WITH ONE EDITOR AS NOTEPADD++, SUBLIMETEXT...
+####   PUT LANGUAJE->JAVA
+#
+
+#   Select prefix to messages plugin
+
+prefix: "&6&l[&4&lSpeed&f&lHopper&6&l]"
+
+
+#   The default velocity hopper block it's 1 block for 10 ticks
+#   Aprox: 2 blocks for second, this it's default velocity hopper block
+tics: 10
+
+#   Messages:
+messages:
+    help:
+        - "&7&m------[&4&l Speed&f&lHopper &7&m]------"
+        - "&9/shopper reload &f: Reload config"
+    nopermission: "&cOPS!&f You don't have permission for this"
+    sucessreload: "&aReload success"

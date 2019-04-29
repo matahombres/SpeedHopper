@@ -1,0 +1,25 @@
+name: SpeedHopper
+version: 1.0
+author: matahombress
+main: net.SpeedHopper.main
+api-version: 1.13
+commands:
+    speedhopper:
+        description: Main speedhopper commands.
+        aliases: shopper
+permissions:
+    speedhopper.*:
+        default: false
+        description: Give access to all customhopper permissions.
+        children:
+            customhopper.reload: true
+            customhopper.help: true
+    speedhopper.reload:
+        default: false
+        description: Access to all customhopper permission reload.
+    speedhopper.help:
+        default: false
+        description: Access commands
+    speedhopper.reload:
+        default: false
+        description: Access command reload
