@@ -2,7 +2,6 @@ name: SpeedHopper
 version: 1.0
 author: matahombress
 main: net.SpeedHopper.main
-api-version: 1.13
 commands:
     speedhopper:
         description: Main speedhopper commands.
